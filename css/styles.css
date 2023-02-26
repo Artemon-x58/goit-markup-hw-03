@@ -97,7 +97,6 @@ body {
 
 /* ----------------------------Header--------------------------- */
 .header {
-	padding: 24px 0 0 0;
 	border-bottom: 1px solid var(--footer-text);
 }
 .header-content {
@@ -174,10 +173,11 @@ body {
 	text-align: center;
 }
 .hero-content {
-	padding: 188px 292px 188px;
+	padding: 188px 0 188px;
 }
 .hero-title {
-	margin-bottom: 48px;
+	width: 496px;
+	margin: 0 auto 48px;
 
 	font-weight: 700;
 	font-size: 56px;
@@ -224,6 +224,7 @@ body {
 /* ----------------------------What are we doiing--------------------------- */
 
 .services {
+	padding-top: 0;
 }
 .services-title {
 	margin-bottom: 72px;
@@ -264,9 +265,6 @@ body {
 }
 .team-list {
 	display: flex;
-
-	margin-top: 72px;
-	padding-bottom: 120px;
 }
 .team-item {
 	width: calc((100% -72xp) / 4);
@@ -358,7 +356,7 @@ body {
 	flex-wrap: wrap;
 }
 .portfolio-list-kontent {
-	padding: 32px 0;
+	padding: 32px 0 32px 16px;
 	border: 1px solid var(--border-portfolio-items);
 	border-top: none;
 }
